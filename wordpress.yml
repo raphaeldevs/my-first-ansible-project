@@ -4,3 +4,4 @@
     become: true
     roles:
       - mysql-server
+      - wordpress

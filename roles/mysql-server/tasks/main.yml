@@ -20,5 +20,5 @@
 
   - name: Create database for Wordpress
     mysql_db:
-      name: "wordpress"
+      name: "blog"
       state: present
