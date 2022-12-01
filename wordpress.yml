@@ -1,7 +1,7 @@
 ---
-  - name: Wordpress Installation
-    hosts: localhost
-    become: true
-    roles:
-      - mysql-server
-      - wordpress
+- name: Wordpress Installation
+  hosts: localhost
+  become: true
+  roles:
+    - mysql-server
+    - wordpress
