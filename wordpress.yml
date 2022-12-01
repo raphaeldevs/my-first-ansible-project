@@ -1,2 +1,6 @@
-- name: wordpress-installation
-  hosts: localhost
+---
+  - name: Wordpress Installation
+    hosts: localhost
+    become: true
+    roles:
+      - mysql-server
