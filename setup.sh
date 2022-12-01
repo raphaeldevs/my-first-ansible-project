@@ -8,7 +8,7 @@ sudo apt install -y python3-pip
 pip install ansible
 
 # Clone project
-git clone https://github.com/raphaeldevs/my-first-ansible-project
+git clone -b feat/certbot https://github.com/raphaeldevs/my-first-ansible-project
 cd my-first-ansible-project
 
 # Run main playbook
