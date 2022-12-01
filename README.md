@@ -9,7 +9,7 @@ In this project, I set up Ansible to install Wordpress
 Runs setup script:
 
 ```bash
-curl https://raw.githubusercontent.com/raphaeldevs/my-first-ansible-project/main/setup.yml -sSf | sh
+curl https://raw.githubusercontent.com/raphaeldevs/my-first-ansible-project/main/setup.sh -sSf | sh
 ```
 
 > This will download the setup script from this repository and runs with `sh`
