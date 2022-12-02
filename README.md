@@ -20,9 +20,8 @@ If you want to install this on your PC, I recommend using a VM in [Vagrant](http
 
 The setup script will follow these steps:
 
-1. Install pip (Python package manager)
-2. Install Ansible
-3. Clone this repository
-4. Runs `ansible-playbook` in the main file
+1. Install Ansible
+2. Clone this repository
+3. Runs `ansible-playbook` in the main file
 
 > ❗ Tested in Ubuntu 20.04
