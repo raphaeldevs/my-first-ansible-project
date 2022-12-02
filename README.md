@@ -24,3 +24,5 @@ The setup script will follow these steps:
 2. Install Ansible
 3. Clone this repository
 4. Runs `ansible-playbook` in the main file
+
+> ❗ Tested in Ubuntu 20.04
